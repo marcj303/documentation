@@ -11,7 +11,7 @@ Build Environment
 Building on Linux
 ^^^^^^^^^^^^^^^^^^^^
 
-Supported environment: **Ubuntu Linux 18.04 LTS**
+Supported environment: **Ubuntu Linux 22.04 LTS**
 
 Install the following software:
 
@@ -28,7 +28,7 @@ Build Tools Download - Ubuntu
 
 Install required packages on Ubuntu::
 
-  $ sudo apt-get install -y build-essential iasl python uuid-dev nasm openssl gcc-multilib qemu git
+  $ sudo apt install -y build-essential acpica-tools python3 uuid-dev nasm openssl gcc-multilib qemu git
 
 
 Build using Dockers (Optional)
